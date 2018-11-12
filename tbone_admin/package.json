@@ -1,0 +1,36 @@
+{
+  "name": "tbone-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --colors --mode development",
+    "watch": "webpack --config webpack.config.js --watch --mode development",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amitnabarro@github.com/475Cumulus/TBone-admin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/475Cumulus/TBone-admin/issues"
+  },
+  "homepage": "https://github.com/475Cumulus/TBone-admin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-less": "^1.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
